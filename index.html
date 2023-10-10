@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JS Validator Test</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <form class="form">
+        <div class="form-wrapper">
+            <div class="input">
+                <label for="mail">Email:</label>
+                <input type="email" id="mail" name="email">
+                <span class="errorText"></span>
+            </div>
+            <div class="input">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+                <span class="errorText"></span>
+            </div>
+            <div class="input">
+                <label for="zipcode">Zipcode:</label>
+                <input type="text" id="zipcode" name="zipcode">
+                <span class="errorText"></span>
+            </div>
+            <div class="input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="pwd">
+                <span class="errorText"></span>
+            </div>
+            <div class="input">
+                <label for="password-confirmation">Password Confirmation:</label>
+                <input type="password" id="password-confirmation" name="pwdConfirmation">
+                <span class="errorText"></span>
+            </div>
+            <div class="button-wrapper">
+                <button>submit</button>
+            </div>
+
+        </div>
+    </form>
+</body>
+</html>
